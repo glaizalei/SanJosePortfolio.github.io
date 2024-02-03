@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IF=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>San Jose Portfolio </title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark py-2 ">
+        <div class="container-fluid">
+            <img src="images/crop.png" alt="" id="logo" class="img-fluid" style="max-width: 200px">
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>            
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">&nbsp;</h5>
+              <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav ml-auto px-lg-3 justify-content-end align-items-center flex-grow-1 pe-1">
+                <li class="nav-item px-lg-1">
+                  <a class="nav-link active px-lg-2" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item px-lg-1">
+                  <a class="nav-link px-lg-2" href="#about">About Me</a>
+                </li>
+                <li class="nav-item px-lg-1">
+                    <a class="nav-link px-lg-2" id="contact" href="#serviceb">Services</a>
+                  </li>
+                  <li class="nav-item px-lg-1">
+                    <a class="nav-link px-lg-2" id="contact" href="#skills-section">Skills</a>
+                  </li>
+                <li class="nav-item px-lg-1">
+                    <a class="nav-link px-lg-2" href="#portfolio">Project</a>
+                  </li>
+                  <li class="nav-item px-lg-1">
+                    <a class="nav-link px-lg-2" id="contact" href="#contact-text">Contact</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!------------------------------------ home section ------------------------------------->
+    <section class="p-5 text-center text-sm-start pb-lg-0" id="home">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div class="row">
+                    <div class="col-md-6 text-md-left text-sm-center text-left pl-lg-5"  id="home-content">
+                        <h3> Hello, It`s Me</h3>
+                        <h1> Glaiza Lei San Jose,<br><span id="text"></span></h1>
+                        <p>Exploring the world of IT with a fascination for 
+                        progress and development. 
+                        </p>
+                        <div class="home-sci" id="home-sci">
+                            <a href="https://www.facebook.com/glaizalei.sanjose?mibextid=ZbWKwL" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fglai__%3Figsh%3DOHpocTQyYjQ4bzJ3%26fbclid%3DIwAR3tpwOmuZgYq-32VINPEjz-E78GP7uW5VTPREv6HMo6dWn6UbYq3DmZDMk&h=AT1jaON8A0H21BSx5Ncnj1B-uGio6ZzphFyZDYoZOuRGf__FEg_trCBHHG861wG6-UwbVWwCqwSk2OmIoPrw978GWUVOiv-D33JWlnQk2zUtRLizT6Ei8fbzmv5C4UCqgiP_yA" style="--i:8"><i class='bx bxl-instagram' ></i></a>
+                            <a href="https://twitter.com/" style="--i:9"><i class='bx bxl-twitter' ></i></a>
+                            <a href="glaizaleis@gmail.com" style="--i:10"><i class='bx bx-envelope' ></i></a>
+                        </div>
+                        <a href="#about" class="btn-box"> More About Me</a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-none d-md-block img-fluid" id="home-img">
+                            <img src="images/glaisolo.png" max-width="100%" height="auto" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!------------------ABOUT------------------->
+
+<section class="about p-5 text-center text-sm-start pb-lg-0" id="about">
+    <div>
+        <div class="d-sm-flex align-items-center justify-content-between">
+            <div class="row">
+                <div class="col-md-6 d-none d-md-block" id="about-img-container">
+                    <img src="images/glaisologradpic.png" class="img-fluid" alt="Glaipic" id="about-img">
+                </div>
+                <div class="col-md-4 text-md-left text-left" id="about-text">
+                    <h2> About<span> Me</span></h2>
+                    <div>
+                        <p class="aboutp">I am currently a student in Cavite State University to pursue a degree in information technology. I'm a committed student in this exciting matter, developing my proficiency in many programming languages and gaining a solid grasp of IT principles. My interests extend beyond technology to a wide variety of artistic endeavors. I find excitement and fulfillment in the field of design, whether it is by creating visually appealing visuals or conceiving user-friendly interfaces. Art, in all its forms, inspires me constantly, shaping my ideas and providing a different viewpoint on handling problems.</p>
+                    </div>
+                    <a href="#serviceb" class="btn-box">More About Me</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------------------SERVICES------------------->
+<div class="services-bg" id="serviceb">
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title" style="color:#A9B388"  ><span style="color:#4f5940"> Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class='bx bx-code-block' style='color:#ffffff'></i>
+                        <h2 style="color:#ffffff">CODING</h2>
+                        <p style="color:#ffffff"> Offers clients the option to contract out specific programming tasks to 
+                            outside service providers through on-demand coding solutions.This concept 
+                            facilitates efficient development without requiring the long-term commitment 
+                            of keeping an internal development team by giving individuals and enterprises
+                            access to coding skills on a need-basis.
+                        </p>
+                         <a href="https://hub.packtpub.com/what-coding-service/" class="read"> learn more </a>
+                    </div>
+                    <div>
+                        <i class='bx bxs-video' style='color:#ffffff'></i>
+                        <h2 style="color:#ffffff">VIDEO EDITING</h2>
+                        <p style="color:#ffffff"> Allows customers to contract out the post-production phase to outside service providers 
+                            by providing on-demand video editing services. This concept eliminates the need for an 
+                            internal editing crew by giving companies and people access to professional video editing 
+                            knowledge, guaranteeing polished and high-quality recordings.
+                        </p>
+                        <a href="https://www.veedyou.com/what-services-do-video-editors-offer/" class="read"> learn more </a>
+                    </div>
+                    <div>
+                        <i class='bx bxs-color' style='color:#ffffff'></i>
+                        <h2 style="color:#ffffff">DESIGNING</h2>
+                        <p style="color:#ffffff"> Gives clients the option to contract out their graphic and visual design needs to outside 
+                            service providers by offering on-demand design solutions. With the help of this approach, 
+                            companies and individuals can obtain a wide range of design knowledge, creating materials
+                             that are both aesthetically pleasing and professional without having to keep an internal 
+                             design team.
+                        </p>
+                        <a href="https://www.interaction-design.org/literature/topics/service-design" class="read" > learn more </a>
+                    </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <!------------------SKILLS------------------->
+    <section class="p-5 mt-4 skills-section" id="skills-section">
+         <div class="conSki">
+            <h1 class="d-flex justify-content-center" id="skillHead"> My <span id="skillSpan" > Skills</span> </h1>
+
+
+            <div class="row justify-content-center align-items-center">
+            <div class="col-md-6 col-lg-6 mb-4" id="skill-card-container">
+                <h1 class="heading1"> TECHNICAL SKILLS</h1>
+                <div class="Technical-bars">
+            
+                    <div class="bar"><i style="color:#6b5d3e" class='bx bxl-html5' ></i>
+                            <div class="info">
+                                <span style="color:#6b5d3e">HTML</span>
+                            </div>
+                            <div class="progress-line html">
+                                <span></span>
+                            </div>
+                    </div>
+    
+                    <div class="bar"><i style="color:#3a4f1c"class='bx bxs-file-css'></i>
+                            <div class="info">
+                                <span style="color:#3a4f1c">CSS</span>
+                            </div>
+                            <div class="progress-line css">
+                                <span></span>
+                            </div>
+                    </div>
+    
+                    <div class="bar"> <i style="color:#1d474a"class='bx bxl-javascript'></i>
+                            <div class="info">
+                                <span style="color:#1c5b60">JAVASCRIPT</span>
+                            </div>
+                            <div class="progress-line javascript">
+                                <span></span>
+                            </div>
+                    </div>
+    
+                    <div class="bar"> <i style="color:#9e8628" class='bx bxl-python'></i>
+                            <div class="info">
+                                <span style="color:#9e8628">PYTHON</span>
+                            </div>
+                            <div class="progress-line python">
+                                <span></span>
+                            </div>
+                    </div>
+    
+                    <div class="bar"><i style="color:#15432f" class='bx bxl-c-plus-plus'></i>
+                            <div class="info">
+                                <span style="color:#15432f">C++</span>
+                            </div>
+                            <div class="progress-line c">
+                                <span></span>
+                            </div>
+                    </div>
+                   
+                </div>
+              </div>
+
+
+              <div class="col-md-6 col-lg-4 mb-4" id="skill-list">
+                <i class='bx bx-user' style='color:#000000' id="prof-skills">Professional Skills </style><hr> </i>
+                        <br>
+                        <p><b>MULTITASKING</b><br>
+                             Ability to manage multiple duties at once such as work, academics and personal responsibilities.<br>
+                            <br>
+                            <b> TIME MANAGEMENT </b><br>
+                                Skilled in organizing and prioritizing work to meet deadlines while  managing personal matter.<br>
+                            <br>
+                            <b> COMPUTER PROFICIENCY </b><br>
+                                Skilled in a variety of computer duties, including software programs and adjusting to new technology.<br>
+                        </p>
+            </div>
+            </div>
+            
+
+            </div>
+    </section>
+     <!------------------PROJECT------------------->
+<section class="sectionportfolio">
+     <div id="portfolio">
+        <div class="container-project">
+            <h1>My <span>Projects</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Advertisement.png">
+                    <div class="layer">
+                        <h3>ADVERTISEMENT</h3>
+                        <p>
+                            In my multimedia project, I leveraged my photography skills to curate a visually compelling 
+                            advertisement for Starbucks Chilled Coffee. By capturing the essence of the product through 
+                            captivating imagery, I aimed to showcase its immense potential to appeal to consumers seeking 
+                            a refreshing and convenient coffee experience.
+                        </p>
+                        <a href="https://www.canva.com/design/DAF1J7c0Koc/ZGzhd_fqW2llGWcXi3nxvw/edit?utm_content=DAF1J7c0Koc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/DEMIURGIC MAGAZINE.png">
+                    <div class="layer">
+                        <h3>MAGAZINE</h3>
+                        <p>
+                            In this magazine project, while acknowledging room for improvement, the experience served 
+                            as a valuable visual exercise in understanding and envisioning the intricacies of design 
+                            elements. This iterative process provides a solid foundation for future projects, fostering 
+                            growth and refinement in my design skills.
+                        </p>
+                        <a href="https://www.canva.com/design/DAFBwMZso58/j7Gk4S89k8G2IctRstOvJA/edit?utm_content=DAFBwMZso58&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Final.png">
+                    <div class="layer">
+                        <h3>POSTER FILM</h3>
+                        <p>
+                            In this multimedia project, I strategically honed my design skills to craft a compelling poster 
+                            for our horror short film, focusing on refining the art of blending elements seamlessly. Through
+                            a meticulous balance of color, typography, and imagery.
+                        </p>
+                        <a href="https://www.canva.com/design/DAF05_a5-Go/eB3GEZf-qrcmy6OU8ceKbg/edit?utm_content=DAF05_a5-Go&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+ <!------------------CONTACT------------------->
+
+   <section class="contact" id="contact" >
+        <div class="contact-text" id="contact-text">
+            <h2> Contact <span> Me </span></h2>
+            <h4> Let`s Work Together !</h4>
+            <p> Let's collaborate on enhancing our portfolios, 
+                combining our unique skills and experiences to 
+                create a powerful and diverse body of work that
+              reflects our collective strengths and capabilities.</p>
+              <div class="contact-list">
+                <li><i style="color:#4f5940"class='bx bxs-send'></i>  <p>glaizaleis@gmail.com</p>
+                <li><i style="color:#4f5940"class='bx bxs-phone' ></i><p> 09662408597</p>
+              </div>
+              <div class="contact-icons">
+                <a href="https://www.facebook.com/glaizalei.sanjose?mibextid=ZbWKwL"><i style="color:#000000"class='bx bxl-facebook-circle' ></i></a>
+                <a href="https://twitter.com/"><i style="color:#000000"class='bx bxl-twitter' ></i></a>
+                <a href="https://www.instagram.com/glai__?igsh=OHpocTQyYjQ4bzJ3&fbclid=IwAR2R4n_cbZ5xv6tRspQoY9iyr5iA7Ra6yFaRq4zBXZNq3A1ZQKMs3nb5DKQ"><i style="color:#000000"class='bx bxl-instagram' ></i></a>
+              </div>
+        </div>
+        <div class="contact-form">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="59dbded7-2573-4a2c-885d-749cc8781c00">
+                <input type="text" name="name" placeholder="Name" class="box" required="required">
+                <input type="email" name="email" placeholder="Email" class="box" required="required">
+
+                <input name="subject" type="text" class="box" placeholder="Subject" required="required">
+                <textarea cols="40" rows="10" placeholder="Message" class="box"></textarea>
+             <input type="submit" value="submit" class="send">
+            </form>
+        </div>
+   </section>
+   <div class="last-text">
+    <p> © 2024 Developed by: Glaiza Lei . All Rights Reserved.</p><br>
+   </div>
+   <a href="#home" class="top"> <i class='bx bx-up-arrow-alt'></i></a>
+
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</body>
+</html>
+
